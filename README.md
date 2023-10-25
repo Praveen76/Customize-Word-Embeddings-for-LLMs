@@ -1,9 +1,14 @@
 # Customize-Word-Embeddings-for-LLMs
 
+**Problem definition:**
+We'll use NQ (Natural Questions) dataset from the Google. We'll find weak negatives, and hard negatives first. Then we'll calculate word embeddings using OpenAI's text-embedding-ada-002 word embedding model to compare the accuracy and performance with customized word embeddings. 
 
+# Performance of Default Embeddings vs Customized Word Embeddings:
+* To get a visual representation of the 'behaviour' or performance of the default embeddings, we plot a distribution of cosine similarity.
 
-Problem definition:
-We'll use NQ (Natural Questions) dataset from the Google.
+* The graphs show how much the overlap there is between the distribution of cosine similarities for similar and dissimilar pairs. If there is a high amount of overlap, that means there are some dissimilar pairs with greater cosine similarity than some similar pairs.
+
+* The accuracy computed here is the accuracy of a simple rule that predicts 'similar (1)' if the cosine similarity is above some threshold X and otherwise predicts 'dissimilar (0)'.
 
 
 # **Data:**

@@ -11,24 +11,25 @@ The Natural Questions corpus represents a question-answering dataset, comprising
 
 
 
-Data prep
 
-transforming prepared data
-negative sampling
-i. Weak Negatives
-ii. Hard Negatives
-Embeddings:
+* 1. Data prep
+    * transforming prepared data
+      * negative sampling
+        * i. Weak Negatives
+        * ii. Hard Negatives
 
-How to get embeddings
-Visualizing Embeddings
-Queries and Passages in Latent Space
-Projection:
+* 2. Word Embeddings:
+    * How to get embeddings
+    * Visualizing Embeddings
+      * Queries and Passages in Latent Space
 
-motivating example
-performance before training
-training
-Training setup explanation
-Explaining the 'Model' being trained
-performance after training
-visualizing before/after
-Queries and Passages in Latent Space
+* 3. Model Training:
+  * motivating example
+  * performance before training
+    * training
+      * Training setup explanation
+      * Explaining the 'Model' being trained
+        
+* 4. Model performance after training
+  * visualizing before/after
+    * Queries and Passages in Latent Space

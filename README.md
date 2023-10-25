@@ -1,6 +1,5 @@
 # Customize-Word-Embeddings-for-LLMs
 
-**Problem definition:**
 We'll use NQ (Natural Questions) dataset from the Google. We'll find weak negatives, and hard negatives first. Then we'll calculate word embeddings using OpenAI's text-embedding-ada-002 word embedding model to compare the accuracy and performance with customized word embeddings. 
 
 # Performance of Default Embeddings vs Customized Word Embeddings:

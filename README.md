@@ -20,6 +20,28 @@ We'll use NQ (Natural Questions) dataset from the Google. We'll find weak negati
 # **Data:**
 The Natural Questions corpus represents a question-answering dataset, comprising 307,373 training examples, 7,830 development examples, and 7,842 test examples. Each instance consists of a query originating from google.com and an associated Wikipedia page. Within each Wikipedia page, there is an annotated passage, often referred to as the "long answer," which serves as a potential response to the query. Additionally, one or more short spans from this annotated passage contain the actual answer to the query. However, it is important to note that the long and short answer annotations may be left empty. When both the long and short answer annotations are empty, it indicates that no answer is available on the page. If the long answer annotation is non-empty but the short answer annotation remains empty, it suggests that the annotated passage provides a response to the question, yet no explicit short answer can be identified. Lastly, approximately 1% of the documents include a passage annotated with a short answer of "yes" or "no" instead of a list of short spans.
 
+# Instructions for Installation
+Please install following dependencies before procedding further in the project.
+
+**Dependencies:**
+
+* openai: 0.28.1
+* torch: 1.13.1+cpu
+* numpy: 1.18.1
+* pandas: 1.0.1
+* plotly: 5.17.0
+* tqdm: 4.42.1
+* bs4: 4.8.2
+* sklearn: 0.22.1
+* re: 2.2.1
+* matplotlib: 3.5.3
+* sentence_transformers: 2.2.2
+* tiktoken
+* functools
+  
+The code has been tested on Windows system. It should work well on other distributions but has not yet been tested.
+
+In case of any issue with installation or otherwise, please contact me on [Linkedin](https://www.linkedin.com/in/praveen-kumar-anwla-49169266/)
 
 # **Steps involved:**
  Following are the steps involved in our experiment. You can run notebook on your own to get more details on the experiment.

@@ -81,7 +81,7 @@ If you have a Data Science mini-project that you'd like to share, please follow 
 ## Code of Conduct
 Please adhere to our [Code of Conduct](https://github.com/Praveen76/Data-Science-Mini-Projects/blob/main/CODE_OF_CONDUCT.md) in all your interactions with the project.
 
-# Contact:
+## Contact:
 The code has been tested on Windows system. It should work well on other distributions but has not yet been tested. In case of any issue with installation or otherwise, please contact me on [Linkedin](https://www.linkedin.com/in/praveen-kumar-anwla-49169266/)
 
 Happy coding!!
